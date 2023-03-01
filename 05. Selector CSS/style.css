@@ -1,0 +1,43 @@
+#id-1{
+    color: darkgreen;
+}
+.cl-1{
+    color: rebeccapurple;
+}
+.cl-2{
+    border: 2px solid rosybrown;
+}
+.link a{
+    color: pink;
+}
+.link a:visited{
+    color: brown;
+}
+.link a:hover{
+    background-color: darkmagenta;
+    color: aliceblue;
+}
+.link a:focus{
+    background-color: wheat;
+    color: darkgreen;
+}
+.link a:active{
+    background-color: darkcyan;
+    color: lawngreen;
+}
+.menu > .list{
+    display: none;
+}
+.menu > .tombol:focus > .list{
+    background-color: lightgoldenrodyellow;
+    color: darkgray;
+    display: block;
+}
+.menu-hover > .list{
+    display: none;
+}
+.menu-hover:hover  > .tombol+ .list{
+    background-color: lightgoldenrodyellow;
+    color: darkgray;
+    display: block;
+}
