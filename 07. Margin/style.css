@@ -1,0 +1,22 @@
+.merah{
+    border: 2px solid red;
+}
+.kuning{
+    border: 2px solid yellow;
+}
+.hijau{
+    border: 2px solid green;
+}
+.biru{
+    border: 2px solid blue;
+}
+.tengah{
+    margin: 10px auto;
+    width: 300px;
+    height: 100px;
+}
+.kotak{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 100px;
+}
