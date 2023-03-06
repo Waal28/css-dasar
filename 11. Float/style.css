@@ -1,0 +1,24 @@
+body{
+    font-family: 'Satisfy';
+}
+.cont{
+    background-color: darkgreen;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+
+}
+.float{
+    float: left;
+    width: 33.3333%;
+}
+.wheat{
+    height: 200px;
+    padding: 1.5%;
+    width: 97%;
+}
+.bg{
+    background-color: wheat;
+    width: 100%;
+    height: 100%;
+}
