@@ -1,0 +1,38 @@
+:root{
+    --bgColor: tomato;
+    --margin: 5px;
+}
+.maincont{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.cont{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.column{
+    flex-direction: row;
+}
+.nav{
+    flex: 1;
+    background-color: var(--bgColor);
+    margin: var(--margin);
+}
+.header{
+    background-color: var(--bgColor);
+    height: 100px;
+    margin: var(--margin);
+}
+.konten{
+    flex: 2;
+    background-color: var(--bgColor);
+    min-height: 300px;
+    margin: var(--margin);
+}
+.footer{
+    background-color: var(--bgColor);
+    height: 100px;
+    margin: var(--margin);
+}

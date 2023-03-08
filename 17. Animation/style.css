@@ -1,0 +1,18 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    animation: box-anim 5s ease-out infinite alternate;
+    position: relative;
+}
+@keyframes box-anim {
+    0%{
+        left: 0;
+        top: 0;
+    }
+    100%{
+        background-color: darkgreen;
+        left:90%;
+        top: 0;
+    }
+}

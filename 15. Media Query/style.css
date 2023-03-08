@@ -1,0 +1,50 @@
+:root{
+    --bgColor: tomato;
+    --margin: 5px;
+}
+.cont{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.column{
+    flex-direction: row;
+}
+.nav{
+    flex: 1;
+    background-color: lightslategray;
+    margin: var(--margin);
+}
+.header{
+    background-color: var(--bgColor);
+    height: 100px;
+    margin: var(--margin);
+}
+.konten{
+    flex: 2;
+    min-height: 300px;
+    margin: var(--margin);
+}
+.footer{
+    background-color: var(--bgColor);
+    height: 100px;
+    margin: var(--margin);
+}
+.card{
+    margin: 5px;
+    float: left;
+    width: 100px;
+    height: 200px;
+    box-shadow: 0 0px 8px 2px grey;
+    border-radius: 20px;
+}
+@media screen and (max-width : 800px){
+    .column{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width : 550px){
+    .card{
+        width: 100%;
+    }
+}
